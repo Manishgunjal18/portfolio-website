@@ -11,18 +11,46 @@ import {
   RapierRigidBody,
 } from "@react-three/rapier";
 
-const textureLoader = new THREE.TextureLoader();
-const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+const techSkills = [
+  { text: "Python", color: "#3776AB" },
+  { text: "R", color: "#276DC3" },
+  { text: "Pandas", color: "#150458" },
+  { text: "Numpy", color: "#013243" },
+  { text: "SQL", color: "#00758F" },
+  { text: "Tableau", color: "#E97627" },
+  { text: "Power BI", color: "#F2C811" },
+  { text: "SPSS", color: "#cc1b29" },
+  { text: "Hadoop", color: "#FFCC00" },
+  { text: "Spark", color: "#E25A1C" },
+  { text: "TensorFlow", color: "#FF6F00" },
+  { text: "Keras", color: "#D00000" },
+  { text: "OpenCV", color: "#5C3EE8" },
+  { text: "Scikit-Learn", color: "#F7931E" }
 ];
-const textures = imageUrls.map((url) => textureLoader.load(url));
+
+const createTextTexture = (skill: {text: string, color: string}) => {
+  const canvas = document.createElement("canvas");
+  canvas.width = 512;
+  canvas.height = 512;
+  const ctx = canvas.getContext("2d");
+  if (ctx) {
+    ctx.fillStyle = skill.color; 
+    ctx.fillRect(0, 0, 512, 512);
+    
+    ctx.strokeStyle = "rgba(255, 255, 255, 0.2)"; 
+    ctx.lineWidth = 20;
+    ctx.strokeRect(0, 0, 512, 512);
+
+    ctx.fillStyle = (skill.color === "#F2C811" || skill.color === "#FFCC00") ? "#000000" : "#ffffff";
+    ctx.font = "bold 60px Arial, sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText(skill.text, 256, 256);
+  }
+  return new THREE.CanvasTexture(canvas);
+};
+
+const textures = techSkills.map(createTextTexture);
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 

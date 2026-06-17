@@ -15,43 +15,37 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>MSc Data Analytics</h4>
+                <h5>Dublin Business School</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Modules: Programming for Data Analysis, Statistics, Data Mining, Machine Learning and Pattern Recognition, and Data Visualization using Tableau and Power BI.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Senior Analyst</h4>
+                <h5>Merkle (A Dentsu Company)</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Delivered healthcare analytics projects, ensuring 99% data accuracy. Conducted advanced tabulation using Quantum and SPSS. Produced analytical reports to support data-driven decision-making.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Executive - Data Processing</h4>
+                <h5>IPSOS</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2022</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Processed and transformed large survey datasets. Developed automation functions reducing manual effort by 30%. Conducted statistical analysis using SPSS and Dimensions. Delivered solutions for major clients including ESPN, Scotiabank, and L'Oréal.
             </p>
           </div>
         </div>

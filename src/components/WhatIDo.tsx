@@ -87,24 +87,23 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
+              <h3>DATA ANALYSIS</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Transforming raw data into actionable insights through rigorous processing, statistical analysis, and interactive visualizations to drive business decisions.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">R</div>
+                <div className="what-tags">Pandas</div>
+                <div className="what-tags">Numpy</div>
+                <div className="what-tags">SQL Server</div>
+                <div className="what-tags">MySQL</div>
+                <div className="what-tags">Tableau</div>
+                <div className="what-tags">Power BI</div>
+                <div className="what-tags">SPSS</div>
+                <div className="what-tags">Excel</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +127,57 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>MACHINE LEARNING</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Building robust predictive models and deep learning solutions using state-of-the-art frameworks to solve complex pattern recognition problems.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Scikit-learn</div>
+                <div className="what-tags">Tensorflow</div>
+                <div className="what-tags">Keras</div>
+                <div className="what-tags">OpenCV</div>
+                <div className="what-tags">Hadoop</div>
+                <div className="what-tags">Spark</div>
+                <div className="what-tags">Jupyter</div>
+                <div className="what-tags">Google Colab</div>
+              </div>
+              <div className="what-arrow"></div>
+            </div>
+          </div>
+          <div
+            className="what-content what-noTouch"
+            ref={(el) => setRef(el, 2)}
+          >
+            <div className="what-border1">
+              <svg height="100%">
+                <line
+                  x1="0"
+                  y1="100%"
+                  x2="100%"
+                  y2="100%"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeDasharray="6,6"
+                />
+              </svg>
+            </div>
+            <div className="what-corner"></div>
+            <div className="what-content-in">
+              <h3>DATA ENGINEERING</h3>
+              <h4>Description</h4>
+              <p>
+                Designing, building, and maintaining scalable data pipelines and architectures to ensure reliable and efficient data flow for analysis and modeling.
+              </p>
+              <h5>Skillset & tools</h5>
+              <div className="what-content-flex">
+                <div className="what-tags">Apache Spark</div>
+                <div className="what-tags">Airflow</div>
+                <div className="what-tags">Kafka</div>
+                <div className="what-tags">Snowflake</div>
+                <div className="what-tags">AWS</div>
+                <div className="what-tags">ETL</div>
               </div>
               <div className="what-arrow"></div>
             </div>
